@@ -1,0 +1,35 @@
+Host DGXS1
+     Hostname 10.8.1.30
+     IdentityFile ~/.ssh/id_rsa_github_canaan
+     User xiexin
+
+Host DGXS2
+     Hostname 10.8.1.32
+     IdentityFile ~/.ssh/id_rsa_github_canaan
+     User xiexin
+
+Host 172.30.*.*
+     IdentityFile ~/.ssh/id_rsa_github_canaan
+     User xiexin
+
+Host DGX1
+     Hostname 10.8.1.12
+     IdentityFile ~/.ssh/id_rsa_github_canaan
+     User xiexin
+     
+Host DGX1-docker
+     Hostname 10.8.1.12
+     IdentityFile ~/.ssh/id_rsa_github_canaan
+     port 1122
+     User root
+
+Host git.b-bug.org
+     Hostname git.b-bug.org
+     IdentityFile ~/.ssh/id_rsa_github_canaan
+     User xiexin
+
+Host xiaonao
+     Hostname 10.8.0.2
+     port 10022
+     IdentityFile ~/.ssh/id_rsa_github_canaan
+     User xiexin
